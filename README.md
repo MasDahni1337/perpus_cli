@@ -8,3 +8,14 @@ run program
 ```
 python main.py
 ```
+
+## Library Zerodata
+sesuaikan config dibawah ini dengan database lu
+```python
+cekdb = mysql.connector.connect(
+    host = "localhost",
+    user = "zeromind",
+    passwd = "1",
+    database = "testdb"
+)
+```
